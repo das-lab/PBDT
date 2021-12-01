@@ -15,9 +15,9 @@ Application security is essential in today’s highly development period. Backdo
 
 The backdoor samples are mainly divided into three categories:
 
-- **github：**First of all, we collected a wide range of Github projects, including webshells, reverse shells, C/S backdoors written in Python language, and so on. The collected files were marked in the project introduction and verified by manual inspection to be malicious.
-- **msf：**Another part of the samples are generated using Metasploit Framework (MSF), an open-source security vulnerability detection tool with functions including the whole penetration testing process. The msfvenom module can generate Trojan programs. We have obtained part of the rebound shell through this tool, including some samples encoded by base64 or containing shellcode.
-- **veil：**In actual applications, backdoors are mostly obfuscated. In order to obtain more comprehensive data, we use the Veil-Evasion anti-virus tool, which can be used to generate Metasploit payloads and bypass standard software detection or killing. Combining these two tools, a high-quality sample that can bypass security controls is obtained.
+-  **github：**First of all, we collected a wide range of Github projects, including webshells, reverse shells, C/S backdoors written in Python language, and so on. The collected files were marked in the project introduction and verified by manual inspection to be malicious.
+-  **msf：**Another part of the samples are generated using Metasploit Framework (MSF), an open-source security vulnerability detection tool with functions including the whole penetration testing process. The msfvenom module can generate Trojan programs. We have obtained part of the rebound shell through this tool, including some samples encoded by base64 or containing shellcode.
+-  **veil：**In actual applications, backdoors are mostly obfuscated. In order to obtain more comprehensive data, we use the Veil-Evasion anti-virus tool, which can be used to generate Metasploit payloads and bypass standard software detection or killing. Combining these two tools, a high-quality sample that can bypass security controls is obtained.
 
 ## Reference
 
